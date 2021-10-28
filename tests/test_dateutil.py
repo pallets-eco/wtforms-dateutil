@@ -2,9 +2,9 @@ from datetime import date
 from datetime import datetime
 from tests.common import DummyPostData
 from unittest import TestCase
+from wtforms_dateutil import DateField
+from wtforms_dateutil import DateTimeField
 
-from wtforms.ext.dateutil.fields import DateField
-from wtforms.ext.dateutil.fields import DateTimeField
 from wtforms.form import Form
 
 
